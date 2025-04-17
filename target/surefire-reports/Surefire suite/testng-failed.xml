@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.hexaclothes.HexaClothesAutomation.LoginTest">
+        <methods>
+          <include name="clickOnLoginButtonToOpenLoginPage"/>
+          <include name="tologout"/>
+          <include name="validEmailAndInvalidPassword"/>
+          <include name="invalidEmailAndInvalidPassword"/>
+          <include name="invalidEmailAndValidPassword"/>
+          <include name="tearDown"/>
+          <include name="takeScreenshotOnFailure"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.hexaclothes.HexaClothesAutomation.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
